@@ -1,0 +1,9 @@
+@mixin width-maginBottom($width, $marginBottom) {
+  width: $width;
+  margin-bottom: $marginBottom;
+}
+@mixin display($display, $alignItems, $justfyContent) {
+  display: $display;
+  align-items: $alignItems;
+  justify-content: $justfyContent;
+}
