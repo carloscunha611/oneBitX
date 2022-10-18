@@ -8,8 +8,11 @@
   font-size: 12px;
   font-weight: bold0;
 }
+.header #navItem {
+  color: white;
+}
 .header #navItem:hover {
-  color: #b9b9b9;
+  color: #ff0048;
 }
 
 .container00 {
@@ -36,6 +39,18 @@
   border: 2px solid white;
 }
 
+button.btn-outline-light:active {
+  color: white;
+  background-color: #ff0048;
+}
+button.btn-outline-light:hover {
+  color: white;
+  background-color: #ff0048;
+}
+button.btn-outline-light:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 0, 72, 0.4392156863);
+}
+
 .downloadDesc {
   background-color: black;
   height: 85vh;
@@ -52,8 +67,8 @@
   border-bottom: 1px solid white;
 }
 .emailObc:hover {
-  border-bottom: 1px solid #b9b9b9;
-  color: #b9b9b9;
+  border-bottom: 1px solid #ff0048;
+  color: #ff0048;
 }
 
 .footer {
@@ -70,7 +85,7 @@
   color: white;
 }
 .footer a:hover {
-  color: #b9b9b9;
+  color: #ff0048;
 }
 .footer .copyOBC {
   color: #555252;

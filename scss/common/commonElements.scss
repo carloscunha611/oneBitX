@@ -2,6 +2,7 @@
   font-size: 12px;
   font-weight: bold0;
   #navItem {
+    color: $text-color;
     &:hover {
       color: $link-hover;
     }
@@ -27,7 +28,20 @@
 
 #button {
   padding: $padding-button;
-  border: 2px solid white;
+  border: 2px solid $text-color;
+}
+button.btn-outline-light {
+  &:active {
+    color: $text-color;
+    background-color: $link-hover;
+  }
+  &:hover {
+    color: $text-color;
+    background-color: $link-hover;
+  }
+  &:focus {
+    box-shadow: 0 0 0 0.25rem #ff004870;
+  }
 }
 
 .downloadDesc {
